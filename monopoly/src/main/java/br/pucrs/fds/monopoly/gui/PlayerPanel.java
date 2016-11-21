@@ -14,9 +14,6 @@ import javax.swing.OverlayLayout;
 import javax.swing.border.BevelBorder;
 
 import src.main.java.br.pucrs.fds.monopoly.*;
-import src.main.java.br.pucrs.fds.monopoly.Card;
-import src.main.java.br.pucrs.fds.monopoly.GameMaster;
-import src.main.java.br.pucrs.fds.monopoly.Player;
 
 public class PlayerPanel extends JPanel {
 
@@ -144,7 +141,7 @@ public class PlayerPanel extends JPanel {
         lblName.setText(player.getName());
         lblMoney.setText("$ " + player.getMoney());
         StringBuffer buf = new StringBuffer();
-        Cell[] cells = player.getAllProperties();
+        IOwnable[] cells = player.getAllProperties();
         for (int i = 0; i < cells.length; i++) {
             buf.append(cells[i] + "\n");
         }

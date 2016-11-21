@@ -1,6 +1,6 @@
 package src.main.java.br.pucrs.fds.monopoly;
 
-public abstract class Cell {
+public abstract class Cell implements IOwnable {
 	private boolean available = true;
 	private String name;
 	protected Player owner;
@@ -9,6 +9,9 @@ public abstract class Cell {
 		return name;
 	}
 
+	/* (non-Javadoc)
+	 * @see src.main.java.br.pucrs.fds.monopoly.IOwnable#getOwner()
+	 */
 	public Player getOwner() {
 		return owner;
 	}
@@ -31,6 +34,9 @@ public abstract class Cell {
 		this.name = name;
 	}
 
+	/* (non-Javadoc)
+	 * @see src.main.java.br.pucrs.fds.monopoly.IOwnable#setOwner(src.main.java.br.pucrs.fds.monopoly.Player)
+	 */
 	public void setOwner(Player owner) {
 		this.owner = owner;
 	}
