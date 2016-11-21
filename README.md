@@ -1,2 +1,2 @@
 # scaling-journey
-Repositório vazio para o Exercício E08.
+Repositório para E8 com Maven e TravisCI.
