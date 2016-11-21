@@ -1,4 +1,6 @@
-package edu.ncsu.monopoly;
+package src.test.java.br.pucrs.fds.monopoly;
+
+import src.main.java.br.pucrs.fds.monopoly.*;
 
 public class MockGUI implements MonopolyGUI {
     private boolean btnDrawCardState, btnEndTurnState, btnGetOutOfJailState;

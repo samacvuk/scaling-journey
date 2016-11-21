@@ -1,5 +1,5 @@
 
-package edu.ncsu.monopoly;
+package src.main.java.br.pucrs.fds.monopoly;
 
 public class GameBoardFreeParking extends GameBoard {
 	public GameBoardFreeParking() {

@@ -1,8 +1,10 @@
-package edu.ncsu.monopoly;
+package src.test.java.br.pucrs.fds.monopoly;
 
 import java.util.ArrayList;
 
 import junit.framework.TestCase;
+
+import src.main.java.br.pucrs.fds.monopoly.*;
 
 public class GameMasterTest extends TestCase {
 

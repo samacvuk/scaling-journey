@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -10,7 +10,7 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import edu.ncsu.monopoly.GameMaster;
+import src.main.java.br.pucrs.fds.monopoly.GameMaster;
 
 public class UtilDiceRoll extends JDialog {
 	

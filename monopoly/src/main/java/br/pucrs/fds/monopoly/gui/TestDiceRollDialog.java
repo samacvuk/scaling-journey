@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.Container;
 import java.awt.Frame;

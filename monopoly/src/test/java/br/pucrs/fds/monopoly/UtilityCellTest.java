@@ -1,5 +1,5 @@
-package edu.ncsu.monopoly;
-
+package src.test.java.br.pucrs.fds.monopoly;
+import src.main.java.br.pucrs.fds.monopoly.*;
 import junit.framework.TestCase;
 
 public class UtilityCellTest extends TestCase {

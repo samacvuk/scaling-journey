@@ -1,8 +1,8 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
-import edu.ncsu.monopoly.Cell;
-import edu.ncsu.monopoly.Player;
-import edu.ncsu.monopoly.PropertyCell;
+import src.main.java.br.pucrs.fds.monopoly.Cell;
+import src.main.java.br.pucrs.fds.monopoly.Player;
+import src.main.java.br.pucrs.fds.monopoly.PropertyCell;
 
 public class PropertyCellInfoFormatter implements CellInfoFormatter {
     public String format(Cell cell) {

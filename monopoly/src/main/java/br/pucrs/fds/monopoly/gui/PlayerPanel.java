@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -13,10 +13,10 @@ import javax.swing.JTextArea;
 import javax.swing.OverlayLayout;
 import javax.swing.border.BevelBorder;
 
-import edu.ncsu.monopoly.*;
-import edu.ncsu.monopoly.Card;
-import edu.ncsu.monopoly.GameMaster;
-import edu.ncsu.monopoly.Player;
+import src.main.java.br.pucrs.fds.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.Card;
+import src.main.java.br.pucrs.fds.monopoly.GameMaster;
+import src.main.java.br.pucrs.fds.monopoly.Player;
 
 public class PlayerPanel extends JPanel {
 

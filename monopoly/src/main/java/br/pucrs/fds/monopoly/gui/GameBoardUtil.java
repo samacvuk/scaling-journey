@@ -1,10 +1,10 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.Dimension;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.ncsu.monopoly.GameBoard;
+import src.main.java.br.pucrs.fds.monopoly.GameBoard;
 
 public class GameBoardUtil {
     

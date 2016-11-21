@@ -1,8 +1,8 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import javax.swing.JOptionPane;
 
-import edu.ncsu.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.*;
 
 public class Main {
 

@@ -1,11 +1,11 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.*;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 
-import edu.ncsu.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.*;
 
 public class GUICell extends JPanel {
 

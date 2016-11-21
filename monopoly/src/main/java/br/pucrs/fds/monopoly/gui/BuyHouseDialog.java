@@ -1,5 +1,5 @@
 
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.Container;
 import java.awt.GridLayout;
@@ -11,7 +11,7 @@ import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 
-import edu.ncsu.monopoly.Player;
+import src.main.java.br.pucrs.fds.monopoly.Player;;
 
 
 public class BuyHouseDialog extends JDialog {

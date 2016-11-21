@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import edu.ncsu.monopoly.RespondDialog;
-import edu.ncsu.monopoly.TradeDeal;
+import src.main.java.br.pucrs.fds.monopoly.RespondDialog;
+import src.main.java.br.pucrs.fds.monopoly.TradeDeal;
 
 
 public class GUIRespondDialog extends JDialog implements RespondDialog {

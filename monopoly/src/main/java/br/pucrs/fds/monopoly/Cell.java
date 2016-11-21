@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly;
+package src.main.java.br.pucrs.fds.monopoly;
 
 public abstract class Cell {
 	private boolean available = true;
@@ -27,7 +27,7 @@ public abstract class Cell {
 		this.available = available;
 	}
 	
-	void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 

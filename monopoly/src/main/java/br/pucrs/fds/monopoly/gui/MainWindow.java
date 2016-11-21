@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -16,12 +16,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
-import edu.ncsu.monopoly.*;
-import edu.ncsu.monopoly.Cell;
-import edu.ncsu.monopoly.GameBoard;
-import edu.ncsu.monopoly.GameMaster;
-import edu.ncsu.monopoly.MonopolyGUI;
-import edu.ncsu.monopoly.Player;
+import src.main.java.br.pucrs.fds.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.Cell;
+import src.main.java.br.pucrs.fds.monopoly.GameBoard;
+import src.main.java.br.pucrs.fds.monopoly.GameMaster;
+import src.main.java.br.pucrs.fds.monopoly.MonopolyGUI;
+import src.main.java.br.pucrs.fds.monopoly.Player;
 
 public class MainWindow extends JFrame implements MonopolyGUI{
 	JPanel eastPanel = new JPanel();

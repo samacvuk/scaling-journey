@@ -1,11 +1,12 @@
-package edu.ncsu.monopoly;
+package src.test.java.br.pucrs.fds.monopoly;
 
 import java.awt.Dimension;
 import java.util.List;
 
 import junit.framework.TestCase;
 
-import edu.ncsu.monopoly.gui.GameBoardUtil;
+import src.main.java.br.pucrs.fds.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.gui.GameBoardUtil;
 
 public class GameboardCreationTest extends TestCase{
 	

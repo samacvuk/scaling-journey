@@ -1,7 +1,8 @@
-package edu.ncsu.monopoly;
+package src.test.java.br.pucrs.fds.monopoly;
 
-import edu.ncsu.monopoly.gui.GoCellInfoFormatter;
-import edu.ncsu.monopoly.gui.InfoFormatter;
+import src.main.java.br.pucrs.fds.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.gui.GoCellInfoFormatter;
+import src.main.java.br.pucrs.fds.monopoly.gui.InfoFormatter;
 import junit.framework.TestCase;
 
 public class CellInfoFormatterTest extends TestCase {

@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly;
+package src.main.java.br.pucrs.fds.monopoly;
 
 public class GameBoardJail extends GameBoard {
 	public GameBoardJail() {

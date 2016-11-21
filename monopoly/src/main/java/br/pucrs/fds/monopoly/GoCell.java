@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly;
+package src.main.java.br.pucrs.fds.monopoly;
 
 public class GoCell extends Cell {
 	public GoCell() {
@@ -9,6 +9,6 @@ public class GoCell extends Cell {
 	public void playAction() {
 	}
 	
-	void setName(String name) {
+	public void setName(String name) {
 	}
 }

@@ -1,6 +1,6 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
-import edu.ncsu.monopoly.Cell;
+import src.main.java.br.pucrs.fds.monopoly.Cell;
 
 public class FreeParkingCellInfoFormatter implements CellInfoFormatter {
     

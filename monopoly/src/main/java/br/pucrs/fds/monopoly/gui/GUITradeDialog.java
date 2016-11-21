@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.awt.*;
 import java.awt.Container;
@@ -13,9 +13,9 @@ import javax.swing.*;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 
-import edu.ncsu.monopoly.*;
-import edu.ncsu.monopoly.TradeDeal;
-import edu.ncsu.monopoly.TradeDialog;
+import src.main.java.br.pucrs.fds.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.TradeDeal;
+import src.main.java.br.pucrs.fds.monopoly.TradeDialog;
 
 public class GUITradeDialog extends JDialog implements TradeDialog {
     private JButton btnOK, btnCancel;

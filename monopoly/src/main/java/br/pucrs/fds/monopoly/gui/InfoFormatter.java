@@ -1,8 +1,8 @@
-package edu.ncsu.monopoly.gui;
+package src.main.java.br.pucrs.fds.monopoly.gui;
 
 import java.util.Hashtable;
 
-import edu.ncsu.monopoly.*;
+import src.main.java.br.pucrs.fds.monopoly.*;
 
 public class InfoFormatter {
     static Hashtable cellInfoFormatters = null;

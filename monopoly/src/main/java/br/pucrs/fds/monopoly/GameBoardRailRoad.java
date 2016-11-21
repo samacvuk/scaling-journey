@@ -1,4 +1,4 @@
-package edu.ncsu.monopoly;
+package src.main.java.br.pucrs.fds.monopoly;
 
 public class GameBoardRailRoad extends GameBoard {
 	public GameBoardRailRoad() {
